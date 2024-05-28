@@ -1,0 +1,11 @@
+[package]
+name = "MainEngine"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+RenderHandler = {path = "../RenderHandler"}
+WindowHandler = {path = "../WindowHandler"}
+winit = "0.30.0"
