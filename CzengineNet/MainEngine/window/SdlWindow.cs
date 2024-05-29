@@ -40,7 +40,9 @@ namespace MainEngine.window {
         }
 
         public override void Configure(WindowProperties windowProperties) {
-            throw new NotImplementedException();
+            SDL.SDL_SetWindowSize(window, windowProperties.width, windowProperties.height);
+            SDL.SDL_SetWindowTitle(window, windowProperties.name);
+            this.properties = windowProperties;
         }
 
         public override void RunLoop() {
