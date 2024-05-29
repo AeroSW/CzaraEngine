@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="sdl2.nuget" Version="2.30.2" />
+    <PackageReference Include="Silk.NET.Core" Version="2.21.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SDL2-CS\SDL2-CS.csproj" />
+  </ItemGroup>
+
 </Project>
