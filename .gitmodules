@@ -1,0 +1,3 @@
+[submodule "CzenginePlusPlus"]
+	path = CzenginePlusPlus
+	url = https://github.com/AeroSW/CzenginePlusPlus.git
